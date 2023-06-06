@@ -15,9 +15,7 @@ const handleEvents = (e) => {
             input.value = calculation;
         } catch (e) {
             input.value = "Error!";
-        
         }
-        display = '';
 
     } else if (target.id === 'ac' || target.id === 'clear') {
         display = '';
