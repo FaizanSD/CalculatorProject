@@ -12,7 +12,7 @@ const handleEvents = (e) => {
         try {
             eval(display); 
             calculation = eval(display);
-            display = calculation;
+            display = String(calculation);
             input.value = display;
         } catch (e) {
             input.value = "Error!";
