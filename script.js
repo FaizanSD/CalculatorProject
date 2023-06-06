@@ -12,7 +12,8 @@ const handleEvents = (e) => {
         try {
             eval(display); 
             calculation = eval(display);
-            input.value = calculation;
+            display = calculation;
+            input.value = display;
         } catch (e) {
             input.value = "Error!";
         }
